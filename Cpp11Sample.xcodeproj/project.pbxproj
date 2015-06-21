@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A2C8994A1B36F8C5006E973D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C899491B36F8C5006E973D /* main.m */; };
 		A2C899521B36F8DC006E973D /* sample01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2C899501B36F8DC006E973D /* sample01.cpp */; };
+		A2C899551B36FBD5006E973D /* sample02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2C899531B36FBD5006E973D /* sample02.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		A2C899491B36F8C5006E973D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2C899501B36F8DC006E973D /* sample01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample01.cpp; sourceTree = "<group>"; };
 		A2C899511B36F8DC006E973D /* sample01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample01.h; sourceTree = "<group>"; };
+		A2C899531B36FBD5006E973D /* sample02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample02.cpp; sourceTree = "<group>"; };
+		A2C899541B36FBD5006E973D /* sample02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample02.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				A2C899491B36F8C5006E973D /* main.m */,
 				A2C899501B36F8DC006E973D /* sample01.cpp */,
 				A2C899511B36F8DC006E973D /* sample01.h */,
+				A2C899531B36FBD5006E973D /* sample02.cpp */,
+				A2C899541B36FBD5006E973D /* sample02.h */,
 			);
 			path = Cpp11Sample;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				A2C899521B36F8DC006E973D /* sample01.cpp in Sources */,
 				A2C8994A1B36F8C5006E973D /* main.m in Sources */,
+				A2C899551B36FBD5006E973D /* sample02.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +172,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/develop/folly,
+					/develop/boost_1_58_0,
+					"/develop/glog/glog-0.3.3/src",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -202,6 +215,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/develop/folly,
+					/develop/boost_1_58_0,
+					"/develop/glog/glog-0.3.3/src",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -241,6 +261,7 @@
 				A2C8994F1B36F8C5006E973D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
