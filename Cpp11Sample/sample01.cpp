@@ -8,17 +8,6 @@
 
 #include "sample01.h"
 
-
-// 型のエイリアス
-// C++11以前
-//typedef int Output;
-//typedef int Input;
-
-// C++11
-using Output = int;
-using Input  = int;
-
-
 // std::function
 // C++11以前では関数ポインタ
 // std::functionの方が関数ポインタの宣言よりソースが読みやすい。
@@ -26,7 +15,8 @@ using Input  = int;
 // Tを引数とし戻り値がvoidの関数
 template <typename T> using Callback = std::function<void(T)>;
 
-Output fooSync(Input input){
+Output fooSync(Input input)
+{
     return input * 10;
 }
 

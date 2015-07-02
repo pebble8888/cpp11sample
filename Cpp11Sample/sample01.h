@@ -11,4 +11,16 @@
 
 #include <stdio.h>
 
+// 型のエイリアス
+// C++11以前
+//typedef int Output;
+//typedef int Input;
+
+// C++11
+using Output = int;
+using Input  = int;
+
+
+Output fooSync(Input input);
+
 #endif /* defined(__Cpp11Sample__sample01__) */

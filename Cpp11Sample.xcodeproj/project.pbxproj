@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A29ADAD91B38F216008C1222 /* Cpp11SampleTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = A29ADAD81B38F216008C1222 /* Cpp11SampleTest.mm */; };
+		A29ADADE1B38F476008C1222 /* sample01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2C899501B36F8DC006E973D /* sample01.cpp */; };
 		A2C8994A1B36F8C5006E973D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C899491B36F8C5006E973D /* main.m */; };
 		A2C899521B36F8DC006E973D /* sample01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2C899501B36F8DC006E973D /* sample01.cpp */; };
-		A2C899551B36FBD5006E973D /* sample02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2C899531B36FBD5006E973D /* sample02.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,15 +26,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A29ADAD61B38F216008C1222 /* Cpp11SampleTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cpp11SampleTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29ADAD81B38F216008C1222 /* Cpp11SampleTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Cpp11SampleTest.mm; sourceTree = "<group>"; };
+		A29ADADA1B38F216008C1222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2C899461B36F8C5006E973D /* Cpp11Sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp11Sample; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C899491B36F8C5006E973D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2C899501B36F8DC006E973D /* sample01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample01.cpp; sourceTree = "<group>"; };
 		A2C899511B36F8DC006E973D /* sample01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample01.h; sourceTree = "<group>"; };
-		A2C899531B36FBD5006E973D /* sample02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample02.cpp; sourceTree = "<group>"; };
-		A2C899541B36FBD5006E973D /* sample02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample02.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A29ADAD31B38F216008C1222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2C899431B36F8C5006E973D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,10 +53,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A29ADAD71B38F216008C1222 /* Cpp11SampleTest */ = {
+			isa = PBXGroup;
+			children = (
+				A29ADAD81B38F216008C1222 /* Cpp11SampleTest.mm */,
+				A29ADADA1B38F216008C1222 /* Info.plist */,
+			);
+			path = Cpp11SampleTest;
+			sourceTree = "<group>";
+		};
 		A2C8993D1B36F8C5006E973D = {
 			isa = PBXGroup;
 			children = (
 				A2C899481B36F8C5006E973D /* Cpp11Sample */,
+				A29ADAD71B38F216008C1222 /* Cpp11SampleTest */,
 				A2C899471B36F8C5006E973D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				A2C899461B36F8C5006E973D /* Cpp11Sample */,
+				A29ADAD61B38F216008C1222 /* Cpp11SampleTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,8 +86,6 @@
 				A2C899491B36F8C5006E973D /* main.m */,
 				A2C899501B36F8DC006E973D /* sample01.cpp */,
 				A2C899511B36F8DC006E973D /* sample01.h */,
-				A2C899531B36FBD5006E973D /* sample02.cpp */,
-				A2C899541B36FBD5006E973D /* sample02.h */,
 			);
 			path = Cpp11Sample;
 			sourceTree = "<group>";
@@ -75,6 +93,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A29ADAD51B38F216008C1222 /* Cpp11SampleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29ADADB1B38F216008C1222 /* Build configuration list for PBXNativeTarget "Cpp11SampleTest" */;
+			buildPhases = (
+				A29ADAD21B38F216008C1222 /* Sources */,
+				A29ADAD31B38F216008C1222 /* Frameworks */,
+				A29ADAD41B38F216008C1222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cpp11SampleTest;
+			productName = Cpp11SampleTest;
+			productReference = A29ADAD61B38F216008C1222 /* Cpp11SampleTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A2C899451B36F8C5006E973D /* Cpp11Sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2C8994D1B36F8C5006E973D /* Build configuration list for PBXNativeTarget "Cpp11Sample" */;
@@ -101,6 +136,9 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = pebble8888;
 				TargetAttributes = {
+					A29ADAD51B38F216008C1222 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					A2C899451B36F8C5006E973D = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
@@ -119,29 +157,79 @@
 			projectRoot = "";
 			targets = (
 				A2C899451B36F8C5006E973D /* Cpp11Sample */,
+				A29ADAD51B38F216008C1222 /* Cpp11SampleTest */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A29ADAD41B38F216008C1222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		A29ADAD21B38F216008C1222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29ADADE1B38F476008C1222 /* sample01.cpp in Sources */,
+				A29ADAD91B38F216008C1222 /* Cpp11SampleTest.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2C899421B36F8C5006E973D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A2C899521B36F8DC006E973D /* sample01.cpp in Sources */,
 				A2C8994A1B36F8C5006E973D /* main.m in Sources */,
-				A2C899551B36FBD5006E973D /* sample02.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A29ADADC1B38F216008C1222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = Cpp11SampleTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = pebble.Cpp11SampleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A29ADADD1B38F216008C1222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = Cpp11SampleTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pebble.Cpp11SampleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		A2C8994B1B36F8C5006E973D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -175,13 +263,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/develop/folly,
-					/develop/boost_1_58_0,
-					"/develop/glog/glog-0.3.3/src",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -190,7 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -218,9 +303,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/develop/folly,
-					/develop/boost_1_58_0,
-					"/develop/glog/glog-0.3.3/src",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -231,20 +313,34 @@
 		A2C8994E1B36F8C5006E973D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		A2C8994F1B36F8C5006E973D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A29ADADB1B38F216008C1222 /* Build configuration list for PBXNativeTarget "Cpp11SampleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29ADADC1B38F216008C1222 /* Debug */,
+				A29ADADD1B38F216008C1222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A2C899411B36F8C5006E973D /* Build configuration list for PBXProject "Cpp11Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
