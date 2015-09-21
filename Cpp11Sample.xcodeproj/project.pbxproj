@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A29304BE1BB02C93000F58C5 /* sample03_enum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A29304BC1BB02C93000F58C5 /* sample03_enum.cpp */; };
 		A29ADAD91B38F216008C1222 /* Cpp11SampleTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = A29ADAD81B38F216008C1222 /* Cpp11SampleTest.mm */; };
 		A29ADADE1B38F476008C1222 /* sample01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2C899501B36F8DC006E973D /* sample01.cpp */; };
-		A2C8994A1B36F8C5006E973D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C899491B36F8C5006E973D /* main.m */; };
+		A2C8994A1B36F8C5006E973D /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = A2C899491B36F8C5006E973D /* main.mm */; };
 		A2C899521B36F8DC006E973D /* sample01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2C899501B36F8DC006E973D /* sample01.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,11 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A29304BC1BB02C93000F58C5 /* sample03_enum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample03_enum.cpp; sourceTree = "<group>"; };
+		A29304BD1BB02C93000F58C5 /* sample03_enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample03_enum.h; sourceTree = "<group>"; };
 		A29ADAD61B38F216008C1222 /* Cpp11SampleTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cpp11SampleTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29ADAD81B38F216008C1222 /* Cpp11SampleTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Cpp11SampleTest.mm; sourceTree = "<group>"; };
 		A29ADADA1B38F216008C1222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2C899461B36F8C5006E973D /* Cpp11Sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp11Sample; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2C899491B36F8C5006E973D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2C899491B36F8C5006E973D /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		A2C899501B36F8DC006E973D /* sample01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample01.cpp; sourceTree = "<group>"; };
 		A2C899511B36F8DC006E973D /* sample01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample01.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,9 +86,11 @@
 		A2C899481B36F8C5006E973D /* Cpp11Sample */ = {
 			isa = PBXGroup;
 			children = (
-				A2C899491B36F8C5006E973D /* main.m */,
+				A2C899491B36F8C5006E973D /* main.mm */,
 				A2C899501B36F8DC006E973D /* sample01.cpp */,
 				A2C899511B36F8DC006E973D /* sample01.h */,
+				A29304BC1BB02C93000F58C5 /* sample03_enum.cpp */,
+				A29304BD1BB02C93000F58C5 /* sample03_enum.h */,
 			);
 			path = Cpp11Sample;
 			sourceTree = "<group>";
@@ -187,7 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C899521B36F8DC006E973D /* sample01.cpp in Sources */,
-				A2C8994A1B36F8C5006E973D /* main.m in Sources */,
+				A2C8994A1B36F8C5006E973D /* main.mm in Sources */,
+				A29304BE1BB02C93000F58C5 /* sample03_enum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

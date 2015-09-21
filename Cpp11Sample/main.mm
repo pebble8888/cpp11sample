@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "sample03_enum.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        auto apple = Food::Fruit::Apple;
+        Food food;
+        NSLog(@"%s", food.fruitName(apple));
     }
     return 0;
 }

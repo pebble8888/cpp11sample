@@ -31,4 +31,5 @@ class Hoge {
     void function5(void);
 };
 
+
 #endif /* defined(__Cpp11Sample__sample01__) */
