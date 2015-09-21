@@ -8,13 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "sample03_enum.h"
+#import "Watch.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
         auto apple = Food::Fruit::Apple;
         Food food;
         NSLog(@"%s", food.fruitName(apple));
+        
+        Watch watch1;
+        //Watch watch("aaa"); // compile error for delete
     }
     return 0;
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A29304BE1BB02C93000F58C5 /* sample03_enum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A29304BC1BB02C93000F58C5 /* sample03_enum.cpp */; };
+		A29304C11BB035C8000F58C5 /* Watch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A29304BF1BB035C8000F58C5 /* Watch.cpp */; };
 		A29ADAD91B38F216008C1222 /* Cpp11SampleTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = A29ADAD81B38F216008C1222 /* Cpp11SampleTest.mm */; };
 		A29ADADE1B38F476008C1222 /* sample01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2C899501B36F8DC006E973D /* sample01.cpp */; };
 		A2C8994A1B36F8C5006E973D /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = A2C899491B36F8C5006E973D /* main.mm */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		A29304BC1BB02C93000F58C5 /* sample03_enum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample03_enum.cpp; sourceTree = "<group>"; };
 		A29304BD1BB02C93000F58C5 /* sample03_enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample03_enum.h; sourceTree = "<group>"; };
+		A29304BF1BB035C8000F58C5 /* Watch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Watch.cpp; sourceTree = "<group>"; };
+		A29304C01BB035C8000F58C5 /* Watch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Watch.h; sourceTree = "<group>"; };
 		A29ADAD61B38F216008C1222 /* Cpp11SampleTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cpp11SampleTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29ADAD81B38F216008C1222 /* Cpp11SampleTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Cpp11SampleTest.mm; sourceTree = "<group>"; };
 		A29ADADA1B38F216008C1222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				A2C899511B36F8DC006E973D /* sample01.h */,
 				A29304BC1BB02C93000F58C5 /* sample03_enum.cpp */,
 				A29304BD1BB02C93000F58C5 /* sample03_enum.h */,
+				A29304BF1BB035C8000F58C5 /* Watch.cpp */,
+				A29304C01BB035C8000F58C5 /* Watch.h */,
 			);
 			path = Cpp11Sample;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C899521B36F8DC006E973D /* sample01.cpp in Sources */,
+				A29304C11BB035C8000F58C5 /* Watch.cpp in Sources */,
 				A2C8994A1B36F8C5006E973D /* main.mm in Sources */,
 				A29304BE1BB02C93000F58C5 /* sample03_enum.cpp in Sources */,
 			);
