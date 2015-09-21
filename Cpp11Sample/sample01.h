@@ -23,4 +23,12 @@ using Input  = int;
 
 Output fooSync(Input input);
 
+class Hoge {
+    void function1(void);
+    void function2(void){}
+    void function3(void){}
+    void function4(void);
+    void function5(void);
+};
+
 #endif /* defined(__Cpp11Sample__sample01__) */
